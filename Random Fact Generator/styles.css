@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(feature_facts.webp) no-repeat center center/ cover;
+}
+.header{
+    background-color: rgb(9, 51, 69);
+    color: rgb(224, 13, 13);
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin:15px auto;
+    width:300px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: wheat;
+    max-width: fit-content;
+    padding: 10px;
+    border: 2px solid  rgb(9, 51, 69);
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+  .fact{
+    background-color: rgb(33, 68, 74);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#button:hover{
+background-color: white;
+color: black;
+
+}
+
